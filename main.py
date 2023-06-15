@@ -6,7 +6,7 @@ import pip
 pip.main(['install', 'pytelegrambotapi'])
 import telebot
 import time
-from replit import db
+from replit import db # DB
 
 
 # HF_BOT_API_KEY = '6074172437:AAEmk8TrN7iXA92nW-UVR8utfiQ6OXQvBYk'
