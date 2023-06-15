@@ -6,8 +6,8 @@ import pip
 pip.main(['install', 'pytelegrambotapi'])
 import telebot
 import time
-from replit import db # DB
-
+from replit import db
+# i need to GIT this
 
 # HF_BOT_API_KEY = '6074172437:AAEmk8TrN7iXA92nW-UVR8utfiQ6OXQvBYk'
 
@@ -43,7 +43,6 @@ def ask_questions(message):
                    reply_markup=keyboard)
 
 
-
 def howstrong(message):
   keyboard = telebot.types.InlineKeyboardMarkup()
   keyboard.row(
@@ -70,4 +69,3 @@ def dialogue(call):
 
 keep_alive()  #load flask-server
 bot.polling(non_stop=True, interval=0)  #load bot
-
